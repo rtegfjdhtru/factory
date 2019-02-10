@@ -1,0 +1,31 @@
+//主に見出しのタイトル　ABOUTとか
+.p-container-title{
+  font-size: $font-size_x;
+  font-family: 'Old Standard TT', serif;
+text-align: center;
+}
+.p-container-sub-body{
+  font-size: $font-size_l;
+}
+.p-body-text{
+  font-size: $font-size_s;
+font-weight: 400;
+  width: 40%;
+  @include sumaho{
+    width: 90%;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-top: $space_l;
+  }
+  @include ipad(){
+
+  }
+}
+.p-section-top-logo{
+  @include sumaho(){
+    width: 70%;
+  }
+  @include ipad(){
+    width: 50%;
+  }
+}

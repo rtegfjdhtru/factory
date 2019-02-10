@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--ヘッダー-->
+<div class="u-back">
+    <header id="header">
+        <!--ロゴ-->
+        <a href="index.html"><img src="./images/header.png" alt="" class="u-margin"></a>
+        <!--ハンバーガー-->
+
+        <div class="menu-trigger js-toggle-sp-menu" href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="nav-menu js-toggle-sp-menu-target">
+            <ul class="c-menu">
+                <li class="c-menu__item"><a href="index.html" class="c-menu__item--link">ABOUT</a></li>
+                <li class="c-menu__item"><a href="index.html" class="c-menu__item--link">PRODUCTS</a>
+                <li class="c-menu__item"><a href="index.html" class="c-menu__item--link">NEWS</a></li>
+                <li class="c-menu__item"><a href="contact.html" class="c-menu__item--link">CONTACT</a></li>
+                <li class="c-menu__item"><a href="company.html" class="c-menu__item--link">COMPANY</a></li>
+
+            </ul>
+        </nav>
+    </header>
+</div>
+<!--フォーム-->
+<form method="post" action="" class="p-section-contact u-section-padding" id="contact">
+    <hi class="p-container-title">CONTACT</hi>
+    <div class="form-container">
+    <div class="p-form-group">
+        <label>
+            <div class="p-form-group__label--title">※お名前</div>
+            <span class="p-form-group__block"></span>
+    <input type="text" name="name" class="p-form-group__valid--input js-valid--name">
+    </label>
+    </div>
+
+    <div class="p-form-group">
+        <label>
+            <div class="p-form-group__label--title">※メールアドレス</div>
+            <span class="p-form-group__block"></span>
+            <input type="text" name="email" class="p-form-group__valid--input js-valid--email" placeholder="email">
+        </label>
+    </div>
+
+    <div class="p-form-group">
+        <label>
+            <div class="p-form-group__label--title">本文</div>
+            <span class="p-form-group__block"></span>
+            <textarea cols="40" rows="10" name="comment" class="p-form-group__text js-form-text"></textarea>
+        </label>
+        <div><span class="js-count-container">0</span>/500</div>
+    </div>
+
+    <input type="submit" value="送信" class="c-submit--btn">
+    </div>
+</form>
+
+
+
+
+
+
+
+<!--フッダー-->
+<footer id="footer">
+    <div class="footer-container">
+        <dl class="footer-dody">
+            <dt>株式会社サンプルテキスト</dt>
+            <dd>〒000-00000　東京都東京区東京町 1-1-1</dd>
+            <dd>TEL 000-000-0000</dd>
+        </dl>
+        <nav class="nav-menu-footer">
+            <ul class="c-menu__footer">
+                <li class="c-menu__footer--item"><a href="" class="c-menu__item--link">ABOUT</a></li>
+                <li class="c-menu__footer--item"><a href="" class="c-menu__item--link">PRODUCTS</a></li>
+                <li class="c-menu__footer--item"><a href="" class="c-menu__item--link">CONTACT</a></li>
+                <li class="c-menu__footer--item"><a href="" class="c-menu__item--link">COMPANY</a></li>
+                <li class="c-menu__footer--item"><a href="" class="c-menu__item--link">NEWS</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </div>
+</footer>
+
+<div class="footer-under">
+    Copyright © 2019 SAMPLE All Rights Reserved.
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="http://jaysalvat.github.io/vegas/releases/latest/vegas.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

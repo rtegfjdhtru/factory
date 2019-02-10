@@ -1,0 +1,15 @@
+//メイン１
+.p-section-top{
+width: 100%;
+  height:830px;
+  text-align: center;
+
+  &-logo{
+    position: relative;
+    top: 200px;
+    @include sumaho(){
+      top:300px;
+    }
+  }
+
+}

@@ -1,0 +1,55 @@
+//フォーム
+.p-section-contact{
+  width: $site-width;
+  height:880px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  @include sumaho(){
+    width: 100%;
+    height:auto;
+  }
+  @include ipad(){
+    width: 100%;
+    height:auto;
+  }
+}
+.p-form-group{
+  margin-bottom: $space_l;
+  &__block{
+    color: #e42c2c;
+    float: left;
+  }
+  &__valid--input{
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: none;
+    font-size: $font-size_s;
+    padding: 10px;
+background: aliceblue;
+  }
+  .has-success{
+  }
+.has-error{
+background: #ffb0b0;
+  }
+
+
+  &__text{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    border: none;
+    font-size: $font-size_s;
+    padding: 10px;
+    background: aliceblue;
+  }
+  &__label--title{
+text-align: left;
+     }
+}
+.form-container{
+  margin-left: 15px;
+  margin-right: 15px;
+}

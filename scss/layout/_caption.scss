@@ -1,0 +1,22 @@
+
+.container-body{
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  @include sumaho(){
+    display: flex;
+    flex-direction: column;
+  }
+  @include ipad(){
+
+  }
+}
+
+.panel-container{
+  display: flex;
+  justify-content: space-around;
+  @include sumaho(){
+    display: flex;
+    flex-direction: column;
+  }
+}

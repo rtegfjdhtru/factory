@@ -1,0 +1,25 @@
+.u-google-map--container{
+text-align: center;
+  width: $site-width;
+  @include sumaho(){
+width: 100%;
+    height: 200px;
+  }
+  &--map{
+    width: 100%;
+    height: 400px;
+    @include sumaho(){
+      width: 70%;
+      height: 200px;
+    }
+  }
+  &--info{
+    text-align: left;
+    @include sumaho(){
+      margin-left: 15px;
+    }
+    @include ipad(){
+      margin-left: 15px;
+    }
+  }
+}

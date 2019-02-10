@@ -1,0 +1,16 @@
+//about
+.p-section-about{
+width: $site-width;
+  height: 280px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+@include sumaho(){
+  width: 100%;
+height: auto;
+}
+  @include ipad(){
+    width: 100%;
+    height: auto;
+  }
+}

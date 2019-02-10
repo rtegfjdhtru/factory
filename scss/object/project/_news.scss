@@ -1,0 +1,51 @@
+//ニュース
+.p-section-news{
+  width: $site-width;
+  height: 380px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  @include sumaho(){
+    width: 100%;
+    height: auto;
+  }
+  @include ipad(){
+    width: 100%;
+  }
+}
+
+.p-nav-news{
+  margin-top: $space_s;
+  margin-bottom: $space_s;
+  border-bottom: solid #005982;
+  @include sumaho(){
+    margin-right: $space_s;
+    margin-left: $space_s;
+  }
+  @include ipad(){
+    margin-left: $space_s;
+    margin-right: $space_s;
+  }
+}
+.p-nav-news__item{
+  width: 100%;
+  padding-top: $space_s;
+  font-size: $font-size_m;
+  border-top: solid #005982;
+  display: flex;
+  justify-content: flex-start;
+  @include sumaho(){
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  &--date{
+
+  }
+  &--text{
+    margin-left: $space_3l;
+    @include sumaho(){
+      margin-left: 0;
+    }
+  }
+}
