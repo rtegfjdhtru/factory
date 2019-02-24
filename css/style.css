@@ -60,7 +60,7 @@ a {
 
 a:hover {
   transition: .5s;
-  color: #4ac39f; }
+  color: #25ffee; }
 
 #header {
   display: flex;
@@ -478,7 +478,8 @@ a:hover {
     padding: 10px;
     background: aliceblue; }
   .p-form-group .has-error {
-    background: #ffb0b0; }
+    background: #ffb0b0;
+    border: 2px solid #ff3939; }
   .p-form-group__text {
     width: 100%;
     height: 200px;
@@ -580,3 +581,9 @@ a:hover {
     @media screen and (max-width: 768px) {
       .u-google-map--container--info {
         margin-left: 15px; } }
+
+.u-msg-slide {
+  background: rgba(144, 226, 255, 0.5);
+  width: 100%;
+  text-align: center;
+  display: none; }

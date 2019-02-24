@@ -33,7 +33,7 @@ $('.c-menu__item--link').on('click',function () {
 
 // バリデーションエラー
 
-     const MSG_TEST_AREA_MAX ='500文字以内で入力してください'
+     const MSG_TEST_AREA_MAX ='500文字以内で入力してください';
 
 $('.js-form-text').on('keyup',function () {
 
@@ -51,5 +51,24 @@ $('.js-form-text').on('keyup',function () {
     }
 
 });
+
+
+     //メール送信　
+  // $('form').on('submit',function (e) {
+  //     e.preventDefault();
+  //
+  // });
+
+
+
+
+
+    var  $jsShowMessage = $('#js-show-msg');
+    var  msg = $jsShowMessage.text();
+    if(msg.replace(/^[\s　]+|[\s　]+$/g,"").length){
+        $jsShowMessage.slideToggle('slow');
+        setTimeout(function () { $jsShowMessage.slideToggle('slow'); },3000);
+
+    };
 
 });
